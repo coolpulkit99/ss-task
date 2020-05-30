@@ -1,0 +1,124 @@
+<html>
+
+<head>
+    <title>
+        Smartserv Website
+    </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <!--     
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                Step 1
+            </div>
+            <div class="col">
+                Step 2
+            </div>
+
+        </div>
+    </div> -->
+
+
+    <!-- <div class="container">
+
+    </div>
+ -->
+    <div class="container align-middle">
+        <form role ="form" action="submitted" method="post" enctype="multipart/form-data">
+
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Select CSV file</label>
+                <div class="col-sm-10">
+                    <!-- <input type="file" class="custom-file-input-primary" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01"> -->
+                    <div class="custom-file">
+                        <input type="file" name="fileUpload" class="custom-file-input btn-primary" id="inputGroupFile01"
+                            aria-describedby="inputGroupFileAddon01">
+                        <label class="custom-file-label" for="inputGroupFile01">Select from My Computer</label>
+                    </div>
+                    <!-- <input type="file" class="btn btn-primary">Select from My Computer</input> -->
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Has Header</label>
+                <div class="col-sm-10">
+                    <div class="form-group form-check">
+                        <input type="checkbox" name="header" class="form-check-input" id="exampleCheck1" checked>
+                        <!-- <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Character Encoding</label>
+                <div class="col-sm-10">
+                    <select name="encoding" class="custom-select" id="inputGroupSelect01">
+                        <!-- <option selected>Choose...</option> -->
+                        <option selected value="utf8">UTF-8</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Delimiter</label>
+                <div class="col-sm-10">
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="radioOptions" id="inlineCheckbox1" checked
+                            value="coma">
+                        <label class="form-check-label">comma</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="radioOptions" id="inlineCheckbox2"
+                            value="semicolon">
+                        <label class="form-check-label">semicolon</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="radioOptions" id="inlineCheckbox3"
+                            value="pipe">
+                        <label class="form-check-label">pipe</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="radioOptions" id="inlineCheckbox3"
+                            value="caret">
+                        <label class="form-check-label">caret</label>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <nav class="navbar centered fixed-bottom navbar-light bg-light">
+                <div>
+                    <button type="submit" class="btn btn-success">Next</button>
+                    <button type="button" class="btn " style="color: red;">Cancel</button>
+                </div>
+            </nav>
+        </form>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>
