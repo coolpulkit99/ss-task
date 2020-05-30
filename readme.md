@@ -1,8 +1,8 @@
-<h1>Task 1</h1>
+<h1>Task 1(completed)</h1>
 
-The folder named data contains the convertedd file and the script used to convert the same.
+The folder named data contains the converted file and the script used to convert the same.
 
-<h1>Task 2 & 3</h1>
+<h1>Task 2 & 3(partly completed)</h1>
 To setup for this task run npm install to install dependencies for the project in folder "/step1" and "/step2".Also set up the required environment variables like MONGO_URI etc.
 This task is divided in two due to error in post request while file uploading.
 step1:has the UI for uploading the file and handles the request.
